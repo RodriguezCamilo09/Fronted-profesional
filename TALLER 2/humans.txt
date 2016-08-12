@@ -1,0 +1,20 @@
+/* TEAM */
+ 
+Developer: Cristian Camilo Rodriguez Contreras.
+Site: cristian.rodriguez03@uptc.edu.co
+Location: Samacá, Colombia.
+ 
+[...]
+ 
+/* THANKS */
+ 
+Name: C&Soft
+ 
+[...]
+ 
+/* SITE */
+ 
+Last update: 2016/08/12
+Standards: HTML5, CSS3, JavaScript.
+Components: Modernizr, jQuery, etc.
+Software: 
