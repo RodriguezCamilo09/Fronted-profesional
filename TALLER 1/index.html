@@ -1,0 +1,94 @@
+<!DOCTYPE html> <!-- Especificar que es HTML 5 -->
+<html lang="es"> <!-- Lenguaje que manejara la pagina -->
+<head> <!-- Cabecera etiqueta de contenido -->
+	<meta charset="utf-8"> <!-- Atributo de codificacion -->
+	<title>Taller de Front-End</title> <!-- Titulo de la página entre 60 a 70 caracteres -->	
+	<!-- Descripcion de la página 155 a 160 caracteres importante para el SEO -->
+	<meta name="description" content="Taller de practica HTML5" /> 
+	<!-- Especificamos el autor de la página realizada -->
+	<meta name="author" content="Cristian Camilo Rodriguez" />
+	<!-- Palabras claves de la página -->
+	<meta name="keywords" content="html5, css, javascript" />
+	<!-- Llamdo de archivos externos css -->
+	<link href="css/main.css" rel="stylesheet" />
+	<link href="css/normalize.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+	<!-- Colocar icono en el navegador -->
+	<link rel="shortcut icon" href="images/m_logo.png" />
+	<!-- Javascript en un link externo: Jquery -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<!-- Javascript en un link -->
+	<script type="text/javascript" src="js/javascript.js"></script>
+	<!-- Javascript en el HTML -->	
+</head>
+<body> <!-- Cuerpo de la página etiqueta de contenido -->
+	<header> <!-- Cabecera -->
+		<figure id="logo"> <!-- id porque solo existira una imagen -->
+			<img src="images/m_logo.png">
+		</figure> <!-- Etiqueta semantica como un contenedor para la imagen -->	
+		<h1>Taller Front - End</h1> <!-- Etiqueta de titulo de la página -->
+		<!-- Solo usar un h1 por página SEO -->
+		<nav> <!-- Menu de navegacion -->
+			<li><a href="#">HTML</a></li>
+			<li><a href="#">CSS</a></li>
+			<li><a href="#">Backbone</a></li>
+			<li><a href="#">Django</a></li>
+			<li><a href="#">Node.js</a></li>
+		</nav> <!-- Cierre nav -->
+		<section>
+			<article class="item">
+				<figure class="figure_item">
+					<img src="http://farm5.staticflickr.com/4054/4514904944_c03254f204_z.jpg" />
+				</figure>
+				<h2 class="title_item">
+					<a href="#">Título</a>
+				</h2>
+				<div class="data_item">
+					<span>Texto descriptivo</span>
+				</div>
+			</article>
+			<article class="item">
+				<figure class="figure_item">
+					<img src="http://farm5.staticflickr.com/4054/4514904944_c03254f204_z.jpg" />
+				</figure>
+				<h2 class="title_item">
+					<a href="#">Título</a>
+				</h2>
+				<div class="data_item">
+					<span>Texto descriptivo</span>
+				</div>
+			</article>
+			<article class="item">
+				<figure class="figure_item">
+					<img src="http://farm5.staticflickr.com/4054/4514904944_c03254f204_z.jpg" />
+				</figure>
+				<h2 class="title_item">
+					<a href="#">Título</a>
+				</h2>
+				<div class="data_item">
+					<span>Texto descriptivo</span>
+				</div>
+			</article>
+			<article class="item">
+				<figure class="figure_item">
+					<img src="http://farm5.staticflickr.com/4054/4514904944_c03254f204_z.jpg" />
+				</figure>
+				<h2 class="title_item">
+					<a href="#">Título</a>
+				</h2>
+				<div class="data_item">
+					<span>Texto descriptivo</span>
+				</div>
+			</article>
+		</section>
+	<footer> <!-- Pie de página -->
+		<strong>C&Soft</strong>
+		<p>Empresa desarrolladora de software web</p>
+	</footer>
+	<script type="text/javascript">
+		console.log('Esto es Javascript dentro del HTML');
+	</script>
+</body>
+</html>
